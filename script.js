@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function getRandomFontSize() {
-    const fontSizes = ['16px', '35px', '60px'];
+    const fontSizes = ['8px', '15px', '30px'];
     const randomIndex = Math.floor(Math.random() * fontSizes.length);
     return fontSizes[randomIndex];
   }
